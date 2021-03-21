@@ -12,7 +12,7 @@ var TextScramble = function () {
     _classCallCheck(this, TextScramble);
 
     this.el = el;
-    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.chars = '!<>-_\\/[]{}IVNHLGN—=+*^?#123466__';
     this.update = this.update.bind(this);
   }
 
@@ -87,25 +87,22 @@ var TextScramble = function () {
 // Example
 // ——————————————————————————————————————————————————
 
-var phrases = ['DO YOU KNOW WHO YOU ARE?',
-               'SURE?', 'sooner or later', 
-               'you will have to',
-               'face the facts', 
-               'just as I did', 
-               'that they control us', 
-               'for 5781 years',
-               'You dont have to believe me', 'I dont need that',
-               'It is only necessary', 'to remember what',
-               'you have been', 'forced to forget', 
-               'THINK ABOUT THAT',
-               'To learn who rules over you', 
-               'simply find out who you are', 
-               'not allowed to criticize',
-               'become human at last', 'and get rid',
-               'of slavery', 
-               'Take the red pill', 'and I will show', 
-               'you how deep',
-               'the rabbit hole goes', 'I AM', 'IVNHLGN'];
+var phrases = ['Az going to be honest with you..',
+               'AZ know why you are here!', 
+               'AZ know why you feel lonely',
+               'AZ know why you feel that there is...',
+               '...something wrong with this world.',
+               'and why you are looking for answers...',
+               'AZ know because AZ have been in your shoes before.',
+               'Read the story and you will understand...',
+               'IVNHLGN', 'Never give up!', 'IVNHLGN',
+               'Your life matters!', 'IVNHLGN',
+               'You are important!', 'IVNHLGN',
+               'Your story matters!','IVNHLGN',
+               'Your voice matters!','IVNHLGN',
+               'Your feelings matter!','IVNHLGN',
+               'No one can beat the person...',
+               '...who will not give up!!!'];
 
 var el = document.querySelector('.text');
 var fx = new TextScramble(el);
